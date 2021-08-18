@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/availabilityService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/AvailabilityServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/AvailabilityServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/controller/AvailabilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/controller/AvailabilityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/entities/Availability.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/entities/Availability.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/repositories/AvailabilityRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/repositories/AvailabilityRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/service/AvailabilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/service/AvailabilityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/test-classes/org/managementSystem/availabilityService/AvailabilityServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/test-classes/org/managementSystem/availabilityService/AvailabilityServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/ReviewServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wqrwaOIQta0gAemH1d0CXwJ60z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reviewService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.managementSystem.reviewService.ReviewServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="" />
+      <created>1629197204122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629197204122</updated>
+      <workItem from="1629197207270" duration="68000" />
+      <workItem from="1629232741073" duration="2079000" />
+      <workItem from="1629267139205" duration="1274000" />
+      <workItem from="1629268651417" duration="966000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
