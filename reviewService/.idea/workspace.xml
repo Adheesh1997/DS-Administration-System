@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/controller/ReviewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -91,6 +89,7 @@
       <workItem from="1629267139205" duration="1274000" />
       <workItem from="1629268651417" duration="966000" />
       <workItem from="1629274645609" duration="683000" />
+      <workItem from="1629309216065" duration="346000" />
     </task>
     <servers />
   </component>

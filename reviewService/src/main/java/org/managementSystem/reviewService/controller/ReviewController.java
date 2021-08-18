@@ -31,6 +31,11 @@ public class ReviewController {
 
     }
 
+    @GetMapping("Hi")
+    public String HiFunction(){
+        return "Hi";
+    }
+
     @PostMapping("by/createReview")
     public void addReview(@RequestBody Review review){
         reviewService.addReview(review);
