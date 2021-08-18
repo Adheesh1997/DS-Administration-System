@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../availabilityService/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/availabilityService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/AvailabilityServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/AvailabilityServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/controller/AvailabilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/controller/AvailabilityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/entities/Availability.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/entities/Availability.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/repositories/AvailabilityRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/repositories/AvailabilityRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/service/AvailabilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/org/managementSystem/availabilityService/service/AvailabilityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/test-classes/org/managementSystem/availabilityService/AvailabilityServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/test-classes/org/managementSystem/availabilityService/AvailabilityServiceApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/ReviewServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +90,7 @@
       <workItem from="1629232741073" duration="2079000" />
       <workItem from="1629267139205" duration="1274000" />
       <workItem from="1629268651417" duration="966000" />
+      <workItem from="1629274645609" duration="683000" />
     </task>
     <servers />
   </component>
