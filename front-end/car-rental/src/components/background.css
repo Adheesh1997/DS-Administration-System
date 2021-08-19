@@ -1,0 +1,11 @@
+.centered {
+    position: 'absolute';
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    left: '50%';
+    top: '50%';
+    transform: 'translate(-50%, -50%)';
+    width: '75%';
+}

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../availabilityService/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/car-rental/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/car-rental/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/car-rental/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/car-rental/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/car-rental/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/car-rental/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/car-rental/src/services/carDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/car-rental/src/services/carDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,8 @@
       <workItem from="1629232741073" duration="2079000" />
       <workItem from="1629267139205" duration="1274000" />
       <workItem from="1629268651417" duration="966000" />
-      <workItem from="1629274645609" duration="683000" />
+      <workItem from="1629274645609" duration="1268000" />
+      <workItem from="1629375675250" duration="624000" />
     </task>
     <servers />
   </component>
