@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-@EnableEurekaClient
 public class CategoryService {
 
 	public static void main(String[] args) {
@@ -100,7 +99,7 @@ interface VehicleRepo extends JpaRepository<Vehicle, Long>{
 	//@Query(value = "select v from Vehicle v where v.category = category")
 	//public List<Vehicle> retrieveBasedOnCategory(String category);
 }
-
+@CrossOrigin(origins =  "http://localhost:11613" )
 @RestController
 @RequestMapping("vehicle")
 class VehicleController{
@@ -131,10 +130,10 @@ class VehicleController{
 		List<Vehicle> categoryList =new ArrayList<Vehicle>();
 		Vehicle tempV;
 
-		for(int i=0; i<allVehicleList.size(); i++) {
+		for (Vehicle vehicle : allVehicleList) {
 
-			if(allVehicleList.get(i).category.equals(category) ){
-				tempV = allVehicleList.get(i);
+			if (vehicle.category.equals(category)) {
+				tempV = vehicle;
 				categoryList.add(tempV);
 			}
 
