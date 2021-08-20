@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa36170-604f-4211-9a9c-bba9b05c550d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../categoryService/src/main/java/com/example/shop/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../categoryService/src/main/java/com/example/shop/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../categoryService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../categoryService/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bfa36170-604f-4211-9a9c-bba9b05c550d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../categoryService" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -94,6 +91,7 @@
       <workItem from="1629435638820" duration="3000" />
       <workItem from="1629439557502" duration="390000" />
       <workItem from="1629457846132" duration="26000" />
+      <workItem from="1629466019182" duration="168000" />
     </task>
     <servers />
   </component>
