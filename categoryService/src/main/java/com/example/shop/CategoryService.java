@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.http.HttpStatus;
@@ -17,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-@EnableEurekaClient
 public class CategoryService {
 
 	public static void main(String[] args) {
@@ -131,10 +129,10 @@ class VehicleController{
 		List<Vehicle> categoryList =new ArrayList<Vehicle>();
 		Vehicle tempV;
 
-		for(int i=0; i<allVehicleList.size(); i++) {
+		for (Vehicle vehicle : allVehicleList) {
 
-			if(allVehicleList.get(i).category.equals(category) ){
-				tempV = allVehicleList.get(i);
+			if (vehicle.category.equals(category)) {
+				tempV = vehicle;
 				categoryList.add(tempV);
 			}
 
