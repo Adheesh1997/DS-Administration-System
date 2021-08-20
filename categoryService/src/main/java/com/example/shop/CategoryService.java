@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class CategoryService {
 
 	public static void main(String[] args) {
