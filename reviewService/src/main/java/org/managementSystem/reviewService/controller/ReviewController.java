@@ -46,6 +46,27 @@ public class ReviewController {
         reviewService.updateReview(id, review);
     }
 
+    @PostMapping("/addReview/{id}")
+    public ResponseEntity editReviews(@RequestBody Review review,@PathVariable String id){
+
+        Review databaseValues = reviewService.getReviewById(id);
+        databaseValues.getReviewList().removeAll(review.getReviewList());
+        databaseValues.getReviewList().addAll(review.getReviewList());
+        reviewService.updateReviewInList(id, databaseValues.getReviewList());
+
+        return new ResponseEntity(reviewService.getReviewById(id), HttpStatus.OK);
+    }
+
+    @PostMapping("/removeReview/{id}")
+    public ResponseEntity removeReview(@RequestBody Review review,@PathVariable String id){
+
+        Review databaseValues = reviewService.getReviewById(id);
+        databaseValues.getReviewList().removeAll(review.getReviewList());
+        reviewService.updateReviewInList(id, databaseValues.getReviewList());
+
+        return new ResponseEntity(reviewService.getReviewById(id), HttpStatus.OK);
+    }
+
     @DeleteMapping("by/{id}")
     public void deleteReview(@PathVariable String id){
         reviewService.deleteReview(id);
