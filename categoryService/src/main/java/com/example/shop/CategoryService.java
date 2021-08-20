@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.http.HttpStatus;
@@ -99,7 +100,7 @@ interface VehicleRepo extends JpaRepository<Vehicle, Long>{
 	//@Query(value = "select v from Vehicle v where v.category = category")
 	//public List<Vehicle> retrieveBasedOnCategory(String category);
 }
-
+@CrossOrigin(origins =  "http://localhost:11613" )
 @RestController
 @RequestMapping("vehicle")
 class VehicleController{
