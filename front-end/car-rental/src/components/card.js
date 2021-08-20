@@ -7,7 +7,7 @@ class card extends Component{
 
     constructor(props){
         super(props);
-
+        console.log(props.oneVehicle)
         this.state={
             
         }
@@ -20,12 +20,12 @@ class card extends Component{
         return(
             <>
                 <Card
-                  style={{ width: '50rem' }}
+                  style={{ width: '80%',margin:"10%" }}
                   className="mb-2"
                 >
-                  <Card.Header>Header</Card.Header>
+                  <Card.Header>{this.props.oneVehicle.id}</Card.Header>
                   <Card.Body>
-                    <Card.Title> Card Title </Card.Title>
+                    <Card.Title> 0 </Card.Title>
                     <Card.Text>
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apigateway" />
+        <module name="shop" />
+        <module name="discovery-server" />
+        <module name="reviewService" />
+        <module name="availabilityService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apigateway" target="11" />
+      <module name="availabilityService" target="1.8" />
+      <module name="discovery-server" target="1.8" />
+      <module name="reviewService" target="1.8" />
+      <module name="shop" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apigateway" options="-parameters" />
+      <module name="availabilityService" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="reviewService" options="-parameters" />
+      <module name="shop" options="-parameters" />
+    </option>
+  </component>
+</project>

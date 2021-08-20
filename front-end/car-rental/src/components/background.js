@@ -1,6 +1,10 @@
 import React from 'react'
+import axios from "axios";
+
 import './background.css'
 import Card from './card.js'
+import carDetails from '../services/carDetails'
+
 
 
 
@@ -10,8 +14,28 @@ class background extends React.Component{
         super()
         
         this.state={
+            getData:false,
             vehicleList:[],
         }
+    }
+
+
+    componentDidMount(){
+        axios.get("https://localhost:8100/rv/getAll")
+            .then((response)=> {
+                this.setState({
+                    vehicleList : response.data,
+                    getData:true    
+                })
+                console.log(this.state.vehicleList.data.id);
+            })
+            .catch((error)=>{
+                this.setState({
+                    getData:false
+                })
+                console.log("error");
+            })
+            
     }
 
     render(){
@@ -20,7 +44,14 @@ class background extends React.Component{
             fontSize:20,
         }
 
-        const vehicle = this.state.vehicleList.map(vehicle => <Card service={service}/>)
+        let vehicles= "Failed to fetch data from services."
+
+        if(this.state.getData)
+        {
+            //vehicles = "got data"
+            vehicles = this.state.vehicleList.map(vehicle => <Card oneVehicle={vehicle}/>)
+        }
+        
         
         return(
             
@@ -46,8 +77,8 @@ class background extends React.Component{
                         </select>
                     </div>
 
-                    <div>
-                        {vehicle}
+                    <div className="card">
+                        {vehicles}
                     </div>
                 </div>
             </div>
