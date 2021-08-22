@@ -39,6 +39,10 @@ public class ReviewService {
         reviewRepo.save(review);
     }
 
+    public void updateReviewInList(String id, List<String> newReviews) {
+        reviewRepo.updateUserChoices(newReviews, id);
+    }
+
     public void deleteReview(String id) {
         //theReviews.removeIf(t -> t.getId().equals(id));
         reviewRepo.deleteById(id);

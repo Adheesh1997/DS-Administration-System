@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="46f9e71b-64e9-4103-9208-7c1c49d29407" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/repositories/ReviewRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/repositories/ReviewRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/managementSystem/reviewService/service/ReviewService.java" afterDir="false" />
+    </list>
+=======
     <list default="true" id="bfa36170-604f-4211-9a9c-bba9b05c550d" name="Changes" comment="" />
+>>>>>>> 05f5c1a73a8f5dd94a7792a68ff6c71b1b09e4db
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +60,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../categoryService" />
+>>>>>>> 05f5c1a73a8f5dd94a7792a68ff6c71b1b09e4db
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -85,6 +99,13 @@
       <workItem from="1629232741073" duration="2079000" />
       <workItem from="1629267139205" duration="1274000" />
       <workItem from="1629268651417" duration="966000" />
+<<<<<<< HEAD
+      <workItem from="1629274645609" duration="683000" />
+      <workItem from="1629309216065" duration="346000" />
+      <workItem from="1629314882523" duration="1287000" />
+      <workItem from="1629380975926" duration="592000" />
+      <workItem from="1629452849303" duration="6792000" />
+=======
       <workItem from="1629274645609" duration="1268000" />
       <workItem from="1629375675250" duration="624000" />
       <workItem from="1629384229052" duration="2462000" />
@@ -92,6 +113,7 @@
       <workItem from="1629439557502" duration="390000" />
       <workItem from="1629457846132" duration="26000" />
       <workItem from="1629466019182" duration="168000" />
+>>>>>>> 05f5c1a73a8f5dd94a7792a68ff6c71b1b09e4db
     </task>
     <servers />
   </component>
