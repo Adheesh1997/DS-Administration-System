@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@CrossOrigin(origins =  "http://localhost:11613" )
+@CrossOrigin
 @RestController
 @RequestMapping("rv")
 public class ReviewController {

@@ -99,7 +99,7 @@ interface VehicleRepo extends JpaRepository<Vehicle, Long>{
 	//@Query(value = "select v from Vehicle v where v.category = category")
 	//public List<Vehicle> retrieveBasedOnCategory(String category);
 }
-@CrossOrigin(origins =  "http://localhost:11613" )
+@CrossOrigin
 @RestController
 @RequestMapping("vehicle")
 class VehicleController{
