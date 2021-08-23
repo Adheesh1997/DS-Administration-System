@@ -28,7 +28,6 @@ public class ReviewController {
     public ResponseEntity<Review> getReview(@PathVariable String id){
         Review expectedReview = reviewService.getReviewById(id);
         return new ResponseEntity<>(expectedReview, HttpStatus.OK);
-
     }
 
     @GetMapping("Hi")

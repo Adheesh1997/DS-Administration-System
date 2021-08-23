@@ -21,10 +21,12 @@ public class ReviewServiceApplication {
 	@Bean
 	ApplicationRunner init(ReviewRepo reviewRepo){
 		return args -> {
-			Review rev1 = new Review("1", Arrays.asList("foo", "bar"));
-			Review rev2 = new Review("2", Arrays.asList("foo2", "bar2"));
+			Review rev1 = new Review("1", Arrays.asList("This is a good vehicle", "This vehicle has AC problem"));
+			Review rev2 = new Review("2", Arrays.asList("This vehicle has good conditions", "This vehicle is very expensive"));
+			Review rev3 = new Review("3", Arrays.asList("This is a good vehicle","This is off road vehicle"));
 			reviewRepo.save(rev1);
 			reviewRepo.save(rev2);
+			reviewRepo.save(rev3);
 		};
 	}
 }
